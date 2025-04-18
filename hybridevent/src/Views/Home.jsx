@@ -28,26 +28,26 @@ const Home = () => {
         <div style={{backgroundImage:`URL(${bgimg})`}} className='bg-no-repeat w-full bg-cover h-max'>
             {/* <img src={bgimg} alt="" className='relative w-full h-10/12' /> */}
             <div class="obsolute text-white">
-                <div className='flex flex-row justify-around  bg-green-800 text-xl p-2 tst'>
+                <div className='flex flex-row justify-around  bg-green-800 text-sm p-2 tst'>
                   <div className='flex flex-row items-center gap-2'>
-                    <img src="https://icsap.co.in/assets/register-C_USa4Tf.png" alt="" className='h-10' />
+                    <img src="https://icsap.co.in/assets/register-C_USa4Tf.png" alt="" className='h-8' />
                     <p>Register Now</p>
                   </div>
                   <div className='flex flex-row items-center gap-2'>
-                    <img src="https://icsap.co.in/assets/mail-WhNZzFqv.png" alt="" className='h-10' />
+                    <img src="https://icsap.co.in/assets/mail-WhNZzFqv.png" alt="" className='h-8' />
                     <p>info@ICSAPCI.com</p>
                   </div>
                   <div className='flex flex-row items-center gap-2'>
-                    <img src="https://icsap.co.in/assets/call-NFH4RXAW.png" alt="" className='h-10' />
+                    <img src="https://icsap.co.in/assets/call-NFH4RXAW.png" alt="" className='h-8' />
                     <p>+91 1234567890</p>
                   </div>
                   <div className='flex flex-row items-center gap-2'>
-                    <img src="https://icsap.co.in/assets/partner-DFuEPuDc.png" alt="" className='h-10' />
+                    <img src="https://icsap.co.in/assets/partner-DFuEPuDc.png" alt="" className='h-8' />
                     <p>Apply for Academic Partner</p>
                   </div>
                 </div>
                 <div class="relative bottom-0 w-full overflow-hidden tst">
-                    <marquee class="bg-green-400 text-green-100 text-2xl font-semibold py-2">
+                    <marquee class="bg-green-400 text-green-950 text-2xl font-semibold py-2">
                     HYBRID EVENT - You can participate in person at Manila, Philippines or Virtually from your home or office. 
                     </marquee>
                 </div>
@@ -96,17 +96,19 @@ const Home = () => {
                    </div>
                  </div>
                  <div className='flex flex-row w-80 gap-2 mts'>
-                   <img src={org} alt="" className='h-10 mt-2'/>
+                   <img src={org} alt="" className='h-10 mt-3'/>
                    <div className='flex flex-col tst2'>
                     <p className='text-lg font-bold'>Organized by</p>
-                    <p className='text-lg font-semibold'>Confworld Educational Research and Development Association</p>
+                    <p className='text-lg font-semibold'>CERADA</p>
                    </div>
                  </div>
                </div>
                <div className="pt-2">
-                 <button className="bg-emerald-600 hover:bg-emerald-700 text-green-200 p-2 rounded-xl">
-                      Register Now
-                 </button>
+                <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-800">
+                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-green-700 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
+                Register Now
+                </span>
+                </button>
                </div>
             </div>
 
