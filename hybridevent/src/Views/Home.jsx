@@ -362,7 +362,7 @@ const Home = () => {
 
         <div className='relative h-max mt-8 ovhide' >
           <div>
-              <div className="flex justify-center">
+              <div className="flex justify-center ">
                 <div className="flex flex-row">
                       <div data-aos="fade-up-right" className="hide overflow-hidden w-80 h-96 mt-3 [clip-path:polygon(20%_10%,100%_0%,100%_20%,100%_100%,30%_100%,0%_80%)] object-contain border-4 border-green-700 shadow-2xl">
                         <img
@@ -373,7 +373,7 @@ const Home = () => {
                       </div>
                       <div data-aos="fade-up-left" className="bg-green-200 bg-opacity-70 text-gray-800 p-8 rounded-xl shadow-lg w-max h-max px-10 ml-4">
                         <h2 className="text-6xl font-bold mb-4 subd">Submission Deadlines</h2>
-                        <div className="flex justify-between flex-wrap  text-center gap-10 mt-10 flrow">
+                        <div className="flex justify-between flex-wrap text-center gap-10 mt-10 flrow">
                           <div>
                             <img src={fi7} alt="" className='w-15' />
                             <p className="text-xl font-bold">Early bird registration</p>

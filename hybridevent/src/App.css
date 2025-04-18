@@ -230,6 +230,11 @@ ovhide{
 }
 }
 
-@media(max-width:1024px){
-
+@media (min-width:798px){
+   .flrow{
+    flex-direction: column;
+  }
+  .subd{
+    font-size: xx-large;
+  }
 }
