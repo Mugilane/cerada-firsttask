@@ -51,7 +51,7 @@ const Home = () => {
                     HYBRID EVENT - You can participate in person at Manila, Philippines or Virtually from your home or office. 
                     </marquee>
                 </div>
-                <div>
+                <div className='mt-4'>
                 <Header/>
                 </div>
             </div>
@@ -115,20 +115,20 @@ const Home = () => {
             <div className='flex flex-col justify-self-center items-center mt-8 pb-4'>
               <h1 className='font-serif text-green-200'>#CERADA Support SDG's</h1>
               <div className='flex flex-row gap-2 overflow-hidden'>
-                <img src="https://icetmrs.com/assets/logo-SwyesrWA.png" alt="" className='w-10'/>
-                <img src="https://icetmrs.com/assets/PRO1-CkNnUN3E.png" alt="" className='w-10'/>
-                <img src="https://icetmrs.com/assets/web-DEaLh1Jw.png" alt="" className='w-10'/>
-                <img src="https://icetmrs.com/assets/goal1-ITieLZ3b.png" alt="" className='w-10'/>
-                <img src="https://icetmrs.com/assets/goal2-BBloluBi.png" alt="" className='w-10'/>
-                <img src="https://icetmrs.com/assets/goal3-BehFylIf.png" alt="" className='w-10'/>
-                <img src="https://icetmrs.com/assets/goal4-CLpmEH_u.png" alt="" className='w-10'/>
-                <img src="https://icetmrs.com/assets/goal5-ij8yFWz8.png" alt="" className='w-10'/>
-                <img src="https://icetmrs.com/assets/goal7-60yXuO04.png" alt="" className='w-10'/>
-                <img src="https://icetmrs.com/assets/goal8-BfiPexq7.png" alt="" className='w-10'/>
-                <img src="https://icetmrs.com/assets/goal9-CnH43Fhv.png" alt="" className='w-10'/>
-                <img src="https://icetmrs.com/assets/goal11-CudsWUhu.png" alt="" className='w-10'/>
-                <img src="https://icetmrs.com/assets/goal16-BETGmyIU.png" alt="" className='w-10'/>
-                <img src="https://icetmrs.com/assets/goal17-DhnIRWmJ.png" alt="" className='w-10'/>
+                <img src="https://icetmrs.com/assets/logo-SwyesrWA.png" alt="" className='w-12'/>
+                <img src="https://icetmrs.com/assets/PRO1-CkNnUN3E.png" alt="" className='w-12'/>
+                <img src="https://icetmrs.com/assets/web-DEaLh1Jw.png" alt="" className='w-12'/>
+                <img src="https://icetmrs.com/assets/goal1-ITieLZ3b.png" alt="" className='w-12'/>
+                <img src="https://icetmrs.com/assets/goal2-BBloluBi.png" alt="" className='w-12'/>
+                <img src="https://icetmrs.com/assets/goal3-BehFylIf.png" alt="" className='w-12'/>
+                <img src="https://icetmrs.com/assets/goal4-CLpmEH_u.png" alt="" className='w-12'/>
+                <img src="https://icetmrs.com/assets/goal5-ij8yFWz8.png" alt="" className='w-12'/>
+                <img src="https://icetmrs.com/assets/goal7-60yXuO04.png" alt="" className='w-12'/>
+                <img src="https://icetmrs.com/assets/goal8-BfiPexq7.png" alt="" className='w-12'/>
+                <img src="https://icetmrs.com/assets/goal9-CnH43Fhv.png" alt="" className='w-12'/>
+                <img src="https://icetmrs.com/assets/goal11-CudsWUhu.png" alt="" className='w-12'/>
+                <img src="https://icetmrs.com/assets/goal16-BETGmyIU.png" alt="" className='w-12'/>
+                <img src="https://icetmrs.com/assets/goal17-DhnIRWmJ.png" alt="" className='w-12'/>
               </div>
             </div>      
         </div>
@@ -360,7 +360,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className='relative h-max mt-8'>
+        <div className='relative h-max mt-8 ovhide' >
           <div>
               <div className="flex justify-center">
                 <div className="flex flex-row">
@@ -373,7 +373,7 @@ const Home = () => {
                       </div>
                       <div data-aos="fade-up-left" className="bg-green-200 bg-opacity-70 text-gray-800 p-8 rounded-xl shadow-lg w-max h-max px-10 ml-4">
                         <h2 className="text-6xl font-bold mb-4 subd">Submission Deadlines</h2>
-                        <div className="flex justify-between text-center gap-10 mt-10 flrow">
+                        <div className="flex justify-between flex-wrap  text-center gap-10 mt-10 flrow">
                           <div>
                             <img src={fi7} alt="" className='w-15' />
                             <p className="text-xl font-bold">Early bird registration</p>
@@ -403,7 +403,7 @@ const Home = () => {
          
         </div>
 
-        <div className='flex flex-row justify-center mx-auto py-14 px-10 mt-8 w-9/12 gap-4'>
+        <div className='flex flex-row justify-center mx-auto py-14 px-10 mt-8 w-9/12 gap-4 ovhide'>
            <div data-aos="fade-up-right" className='flex flex-col justify-center h-96'>
             <div className='bg-green-200 p-5 rounded-xl'>
                <h1 className='text-gray-800 text-4xl font-bold'>Keynote Speakers</h1>

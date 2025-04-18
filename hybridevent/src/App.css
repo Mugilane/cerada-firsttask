@@ -2,7 +2,9 @@
 body{
   overflow-x: hidden;
 }
-
+ovhide{
+  overflow-x: hidden;
+}
 .orgstyle{
     background:-webkit-linear-gradient(#e9bc8a,#b6b2e9);
     -webkit-text-fill-color: transparent;
