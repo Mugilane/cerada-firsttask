@@ -230,8 +230,8 @@ ovhide{
 }
 }
 
-@media (min-width:798px){
-   .flrow{
+@media (max-width:1030px){
+   .flrow2{
     flex-direction: column;
   }
   .subd{

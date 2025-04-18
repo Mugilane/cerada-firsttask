@@ -73,7 +73,7 @@ const Home = () => {
 
             <div className='relative flex flex-col backdrop-blur-xl text-green-100 w-8/12 justify-self-center items-center mt-22 rounded-2xl p-4 gap-4'>
                <h1 className='text-3xl font-semibold'>Confrence Details</h1>
-               <div className='flex lg:flex-row gap-2 flrow'>
+               <div className='flex lg:flex-row gap-2 items-center flrow'>
                  <div className='flex flex-row gap-2 mts'>
                    <img src={date} alt="" className='h-10 mt-2'/>
                    <div className='flex flex-col tst2'>
@@ -95,7 +95,7 @@ const Home = () => {
                     <p className='text-lg font-semibold'>Hybrid conference: In Person + Online</p>
                    </div>
                  </div>
-                 <div className='flex flex-row w-80 gap-2 mts'>
+                 <div className='flex flex-row gap-2 mts'>
                    <img src={org} alt="" className='h-10 mt-3'/>
                    <div className='flex flex-col tst2'>
                     <p className='text-lg font-bold'>Organized by</p>
@@ -373,7 +373,7 @@ const Home = () => {
                       </div>
                       <div data-aos="fade-up-left" className="bg-green-200 bg-opacity-70 text-gray-800 p-8 rounded-xl shadow-lg w-max h-max px-10 ml-4">
                         <h2 className="text-6xl font-bold mb-4 subd">Submission Deadlines</h2>
-                        <div className="flex justify-between flex-wrap text-center gap-10 mt-10 flrow">
+                        <div className="flex justify-between flex-wrap text-center gap-10 mt-10 flrow flrow2">
                           <div>
                             <img src={fi7} alt="" className='w-15' />
                             <p className="text-xl font-bold">Early bird registration</p>
