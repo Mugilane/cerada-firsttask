@@ -71,7 +71,7 @@ const Home = () => {
               >Confworld Educational Research and Development Association</p>
             </div> 
 
-            <div className='relative flex flex-col backdrop-blur-xl text-green-100 w-8/12 justify-self-center items-center mt-18 rounded-2xl p-4 gap-4'>
+            <div className='relative flex flex-col backdrop-blur-xl text-green-100 w-8/12 justify-self-center items-center mt-22 rounded-2xl p-4 gap-4'>
                <h1 className='text-3xl font-semibold'>Confrence Details</h1>
                <div className='flex lg:flex-row gap-2 flrow'>
                  <div className='flex flex-row gap-2 mts'>
@@ -110,7 +110,7 @@ const Home = () => {
                </div>
             </div>
 
-            <div className='flex flex-col justify-self-center items-center mt-4 pb-4'>
+            <div className='flex flex-col justify-self-center items-center mt-8 pb-4'>
               <h1 className='font-serif text-green-200'>#CERADA Support SDG's</h1>
               <div className='flex flex-row gap-2 overflow-hidden'>
                 <img src="https://icetmrs.com/assets/logo-SwyesrWA.png" alt="" className='w-10'/>
