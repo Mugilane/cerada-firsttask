@@ -47,7 +47,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div class="relative bottom-0 w-full overflow-hidden tst">
-                    <marquee class="bg-green-400 text-green-950 text-2xl font-semibold py-2">
+                    <marquee class="bg-green-400 text-green-950 text-2xl font-semibold py-2 marq">
                     HYBRID EVENT - You can participate in person at Manila, Philippines or Virtually from your home or office. 
                     </marquee>
                 </div>
@@ -56,7 +56,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='relative flex flex-col gap-6 items-center mt-10'>
+            <div className='relative flex flex-col gap-6 items-center mt-10 w-ful'>
               <p 
               className='orgstyle2 lg:text-5xl font-extrabold text-center text-green-200 uppercase sm:text-xl'
               >International Conference on Sustainable Agriculture Practices and Climate Change Impacts </p>
@@ -134,12 +134,12 @@ const Home = () => {
         </div>
 
 
-        <div className='relative m-2 p-4  rounded-2xl bg-white mt-10'>
+        <div className='relative m-2 p-4  rounded-2xl bg-white mt-10 wels'>
           <h1 className='text-center text-6xl font-serif text-green-800 mt-2' data-aos="fade-up">Welcome to ICSAPCI 2026</h1>
           <h4 className='text-center text-4xl font-bold text-green-800 mt-8' data-aos="fade-up">Shaping the Future of Sustainable Agriculture and Climate change</h4>
 
-          <div className='lg:grid lg:grid-cols-3 gap-4 p-10 text-green-800 lg:w-9/12 mt-6 items-center justify-self-center'>
-            <div className='lg:col-span-2' >
+          <div className='lg:grid lg:grid-cols-3 gap-4 p-10 text-green-800 lg:w-9/12 mt-6 items-center justify-self-center text1'>
+            <div className='lg:col-span-2 text2' >
               <p className='text-2xl font-medium p-2 text-justify' data-aos="fade-right">Agriculture is the cornerstone of global sustenance and economic stability. 
             In an era where environmental challenges and food security concerns are increasingly
              prevalent, the need for sustainable agricultural practices has never been more urgent.
@@ -371,7 +371,7 @@ const Home = () => {
                           className="object-cover w-full h-full"
                         />
                       </div>
-                      <div data-aos="fade-up-left" className="bg-green-200 bg-opacity-70 text-gray-800 p-8 rounded-xl shadow-lg w-max h-max px-10 ml-4">
+                      <div data-aos="fade-up-left" className="bg-green-200 bg-opacity-70 text-gray-800 p-8 rounded-xl shadow-lg w-max h-max px-10 ml-4 pmc">
                         <h2 className="text-6xl font-bold mb-4 subd">Submission Deadlines</h2>
                         <div className="flex justify-between flex-wrap text-center gap-10 mt-10 flrow flrow2">
                           <div>

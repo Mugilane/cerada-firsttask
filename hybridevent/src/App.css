@@ -202,8 +202,29 @@ ovhide{
 }
 
 @media (max-width:430px){
+  .tst2{
+    width: 200px;
+  }
+  .tst{
+    font-size:5px;
+    height: 20px;
+    img{
+      height: 20px;
+    }
+    .marq{
+       font-size:10px;
+       margin-top: -5px;
+    }
+  }
   .flrow{
     flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+    width: max-content;
+  }
+  .pmc{
+    padding: 10px;
+    margin-left: 0%;
   }
   .hide{
     display: none;
@@ -212,7 +233,9 @@ ovhide{
     font-size:xx-large;
   }
   .fts{
-    font-size: xx-small;
+    font-size: large;
+    width: 300px;
+    background-color: #444;
   }
   .card-wrapper {
   list-style: none;
@@ -227,6 +250,40 @@ ovhide{
   padding-right: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.smw{
+  width: 50px;
+}
+.orgstyle{
+  background:-webkit-linear-gradient(#340edb,#274c9b);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 2px 2px 4px rgb(red, green, blue);
+}
+.orgstyle2{
+    width: 300px;
+    text-align: center;
+}
+.orgstyle2{
+    background:-webkit-linear-gradient(#1eb30b,#c3e212e0);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 2px 2px 4px rgb(red, green, blue);
+}
+.wels{
+  h1{
+    font-size: xx-large;
+  }
+  h4{
+    font-size: medium;
+    margin-top: 10px;
+  }
+  .text2{
+    width: 320px;
+  }
+  .text1{
+    margin-top: -20px;
+  }
 }
 }
 
