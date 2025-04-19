@@ -24,7 +24,7 @@ const Home = () => {
   
 
   return (
-    <div className='bg-white'>
+    <div className='bg-white overflow-hidden'>
         <div style={{backgroundImage:`URL(${bgimg})`}} className='bg-no-repeat w-full bg-cover h-max'>
             {/* <img src={bgimg} alt="" className='relative w-full h-10/12' /> */}
             <div class="obsolute text-white">
